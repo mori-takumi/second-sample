@@ -14,5 +14,10 @@ public class StreamMain {
 
         System.out.println("平均値");
         System.out.println(IntStream.range(0, 50).average());
+        System.out.println("-----------------------------------------");
+
+        System.out.println("最小値");
+        System.out.println(IntStream.range(0, 50).min());
+
     }
 }
