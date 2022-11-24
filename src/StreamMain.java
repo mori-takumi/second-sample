@@ -18,10 +18,10 @@ public class StreamMain {
 
         System.out.println("最小値");
         System.out.println(IntStream.range(0, 50).min());
+        System.out.println("------------------------------------------");
 
-        System.out.println("最小値");
-        System.out.println(IntStream.range(0, 50).min());
-
-
+        System.out.println("0~10までの合計");
+        System.out.println(IntStream.range(0, 10).sum());
     }
+
 }
